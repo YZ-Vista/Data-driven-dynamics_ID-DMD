@@ -5,15 +5,15 @@ Example Videos (Left: ID-DMD; Right: Ground true)
 
 1-Airfoil
 
-<img src="Figs/Fig_Airfoil.png" width="22%"> _______ <img src="Figs/Airfoil.gif" width="50%">
+<img src="Figs/Fig_Airfoil.png" width="24%"> _______ <img src="Figs/Airfoil.gif" width="50%">
 
 2-Jet flow
 
-![JetFlow](https://github.com/user-attachments/assets/2494755a-6262-4dd0-8abb-8fc9e24af4a3)
+<img src="Figs/Fig_Jetflow.png" width="20%"> _______ <img src="Figs/JetFlow.gif" width="37.5%">
 
 3-Cavity flow
 
-![Cavity flow](https://github.com/user-attachments/assets/0214dfa0-4a00-4708-9797-38d9480f00ac)
+<img src="Figs/Fig_Cavityflow.png" width="20%"> _______ <img src="Figs/Cavity flow.gif" width="37.5%">
 
 4-Smoke
 
