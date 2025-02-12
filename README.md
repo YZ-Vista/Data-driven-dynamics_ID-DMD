@@ -17,7 +17,7 @@ Example Videos (Left: ID-DMD; Right: Ground true)
 
 4-Smoke
 
-![Smoke](https://github.com/user-attachments/assets/0e217796-6de5-4635-8419-36e5574e953c)
+<img src="Figs/Fig_Smoke.png" width="20%"> _______ <img src="Figs/Smoke.gif" width="37.5%">
 
 5-Droplet (Experimental test)
 
