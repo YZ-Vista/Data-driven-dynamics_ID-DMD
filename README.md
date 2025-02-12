@@ -5,7 +5,8 @@ Example Videos (Left: ID-DMD; Right: Ground true)
 
 1-Airfoil
 
-![Airfoil](https://github.com/user-attachments/assets/aed4df0c-0817-4b81-bba2-dbf8cd6c8657)
+<img src="Figs/Fig_Airfoil.png" width="30%">
+<img src="Figs/Airfoil.gif" width="50%">
 
 2-Jet flow
 
