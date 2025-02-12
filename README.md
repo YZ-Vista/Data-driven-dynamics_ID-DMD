@@ -5,8 +5,7 @@ Example Videos (Left: ID-DMD; Right: Ground true)
 
 1-Airfoil
 
-<img src="Figs/Fig_Airfoil.png" width="30%">
-<img src="Figs/Airfoil.gif" width="50%">
+<img src="Figs/Fig_Airfoil.png" width="22%"> _______ <img src="Figs/Airfoil.gif" width="50%">
 
 2-Jet flow
 
