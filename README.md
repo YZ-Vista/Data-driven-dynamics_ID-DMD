@@ -21,4 +21,4 @@ Example Videos (Left: ID-DMD; Right: Ground true)
 
 5-Droplet (Experimental test)
 
-![Droplet](https://github.com/user-attachments/assets/7e9ef0bf-f2af-46ce-9e5e-770679114b0c)
+<img src="Figs/Fig_Droplet.png" width="20%"> _______ <img src="Figs/Droplet.gif" width="37.5%">
