@@ -1,6 +1,14 @@
 # Inverse Design - Dynamic Mode Decomposition (ID-DMD)
 MATLAB and Python codes for the ID-DMD paper
 
-Example Videos
+Example Videos (Left: ID-DMD; Right: Ground true)
 
-https://github.com/user-attachments/assets/c8ab8208-8a71-44b4-9aba-1481cbb6b9c5
+1-Airfoil
+
+![Airfoil](https://github.com/user-attachments/assets/8ffc9465-c325-45d1-a806-8644167a003c)
+
+2-Jet flow
+
+
+
+
