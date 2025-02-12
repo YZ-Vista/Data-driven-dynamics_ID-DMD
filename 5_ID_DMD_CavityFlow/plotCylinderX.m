@@ -1,7 +1,7 @@
-function fhandle = plotCylinderX(VORT,i)
+function fhandle = plotCylinderX(VORT,s,i)
 
 fhandle = figure (1)
-subplot(1,3,i)
+subplot(1,s,i)
 
 V2 = VORT;
 

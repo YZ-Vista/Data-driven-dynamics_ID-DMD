@@ -30,6 +30,10 @@ end
 s = 7; % 24
 pt = PARA{s};
 [Phi, Lambda, b, Ubaser, Mcom] = DMD_for_D1(Xc,Xc_prime,P,r,pt);
+%% Animation
+anim = VideoWriter('CavityFlow_animation.avi');
+anim.FrameRate = 30;
+open(anim);
 
 dt=0.01;
 tspan = [0:dt:(N-1)*dt];
@@ -37,7 +41,7 @@ omega = log(Lambda)/dt;
 wx = abs(diag(omega));
 
 XPm(:,1)=Xdn{s}(:,1);
-    fhandle = plotCylinderX(real(reshape(XPm(:,1),ly,lx)),3,1)
+    fhandle = plotCylinderX(real(reshape(XPm(:,1),ly,lx)),2,1)
     colormap(subplot(1,2,1),Map_rebu);
     axis equal off; drawnow 
 b=b\(Ubaser'*X{s}(:,1));
@@ -56,18 +60,16 @@ for k=2:N %
         Y = Y+Phi(:,i)*exp(omegai*tspan(k))*b(i);
         w = [w abs(omegai)];
     end  
-    fhandle = plotCylinderX(real(reshape(Y,ly,lx)),3,1)
-    colormap(subplot(1,3,1),Map_rebu);
+    fhandle = plotCylinderX(real(reshape(Y,ly,lx)),2,1)
+    colormap(subplot(1,2,1),Map_rebu);
     axis equal off; drawnow 
     
     Vtest = X{s}(:,k-1);
-    fhandle = plotCylinderX(reshape(Vtest,ly,lx),3,2)
-    colormap(subplot(1,3,2),Map_rebu);
+    fhandle = plotCylinderX(reshape(Vtest,ly,lx),2,2)
+    colormap(subplot(1,2,2),Map_rebu);
     axis equal off; drawnow 
-%%%%%%%%%%%%%% err
-    Err = Err + abs(Y-Vtest)./max(abs(Vtest));
+
+    frame = getframe(gcf);
+    writeVideo(anim, frame);
 end
-AErr = Err/N;
-fhandle = plotCylinderX(reshape(AErr,lx,ly),3,3)
-colormap(subplot(1,3,3),Map_grye);
-axis equal off; drawnow
+close(anim);
