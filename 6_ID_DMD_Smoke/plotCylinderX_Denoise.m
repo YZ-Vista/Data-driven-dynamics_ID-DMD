@@ -1,7 +1,7 @@
-function fhandle = plotCylinderX2(VORT,i)
+function fhandle = plotCylinderX_Denoise(VORT,s,i)
 
 fhandle = figure (1)
-subplot(1,3,i)
+subplot(1,s,i)
 V2 = VORT;
 
 vortmin = 0.1;
