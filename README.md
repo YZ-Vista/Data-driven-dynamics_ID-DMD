@@ -19,6 +19,10 @@ Example Videos (*Left*: **ID-DMD**; *Right*: **Ground true**)
 
 <img src="Figs/Fig_Smoke.png" width="20%"> _______ <img src="Figs/Smoke.gif" width="37.5%">
 
-**5-Droplet** (*Experimental test*)
+**5-Burgers Equition**
+
+<img src="Figs/Fig_Burgers.png" width="20%"> _______ <img src="Figs/BURGERS.gif" width="33%">
+
+**6-Droplet** (*Experimental test*)
 
 <img src="Figs/Fig_Droplet.png" width="25%"> _______ <img src="Figs/Droplet.gif" width="33%">
