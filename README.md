@@ -5,7 +5,7 @@ Example Videos (*Left*: **ID-DMD**; *Right*: **Ground true**)
 
 **1-Airfoil**
 
-<img src="Figs/Fig_Airfoil.png" width="24%"> _______ <img src="Figs/Airfoil.gif" width="50%">
+<img src="Figs/Fig_Airfoil.png" width="25%"> _______ <img src="Figs/Airfoil.gif" width="50%">
 
 **2-Jet flow**
 
@@ -21,7 +21,7 @@ Example Videos (*Left*: **ID-DMD**; *Right*: **Ground true**)
 
 **5-Burgers Equition**
 
-<img src="Figs/Fig_Burgers.png" width="20%"> _______ <img src="Figs/BURGERS.gif" width="33%">
+<img src="Figs/Fig_Burgers.png" width="25%"> _______ <img src="Figs/BURGERS.gif" width="33%">
 
 **6-Droplet** (*Experimental test*)
 
