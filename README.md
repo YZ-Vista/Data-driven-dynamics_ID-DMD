@@ -1,5 +1,6 @@
 # Inverse Design - Dynamic Mode Decomposition (ID-DMD)
-With MATLAB and Python codes for the ID-DMD paper
+With MATLAB and Python codes for the ID-DMD paper:
+https://arxiv.org/pdf/2502.09490
 
 Example demonstrations (*Left*: **ID-DMD**; *Right*: **Ground true**)
 
